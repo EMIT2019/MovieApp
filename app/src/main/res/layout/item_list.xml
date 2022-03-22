@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_view_abreviatura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Abreviatura"
+        android:textAlignment="textStart"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Descripción"
+        android:textAlignment="textStart"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Codigo"
+        android:textAlignment="textStart"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        />
+</com.google.android.material.card.MaterialCardView>
